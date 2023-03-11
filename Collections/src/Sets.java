@@ -6,9 +6,6 @@ import java.util.Set;
 public class Sets {
     public static void main(String[] args){
         ArrayList<Person> lista = new ArrayList<Person>();
-        Person pessoa1 = new Person("João", "Silva", "32145698725", 35);
-        Person pessoa2 = new Person("Maria", "Silva", "32145158725", 35);
-        Person pessoa3 = new Person("Ricardo", "Faria", "8539698725", 55);
 
         Set<String> conjunto = new HashSet<String>();
         conjunto.add("batata");
